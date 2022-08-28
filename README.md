@@ -13,6 +13,12 @@ Se elaboró código para intercambiar los siguientes carácteres:
 - La letra "o" es convertida para "ober"
 - La letra "u" es convertida para "ufat"
 
+Se emiten alertas de error mediante "alert()" en caso de que el texto contenga algunos de estos carácteres:
+- Mayúsculas
+- Carácteres especiales
+- Acentos
+- Campo vacío
+
 El sitio web es Responsive, pero tiene ligeros bugs en cuanto a la visualización en algunas resoluciones, por lo que sigue en desarrollo para resolver dichos problemas.
 
 Puedes utilizar la herramienta aquí: <a href="https://mauriciogalv.github.io/Challenge-Oracle-ONE/"> DEMO <a>
