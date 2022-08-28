@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<header class="fila" id="navbar">
+    <div id="navbartop" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img class="logo-alura" src="logo-alura.png" height="48px" width="31.5px">
+    </div>
+</header>
+<body>
+    </div>    
+        <section class="fila" id="fila3">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="titulo-web">
+                <h1>Encriptador</h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <center>
+                    <div class="entradaTexto" id="entradaTexto">
+                        <br>
+                        <textarea type="text" class="input-text" id="input-text" placeholder="Inserte su texto aquí" autocomplete="off"></textarea>
+                        <br><br>
+                        <p class="requisitos"><img src="icon.png" alt="" width="14px" height="14px"> Solo letras minúsculas y sin acentos</p>
+                        <br>
+                        <button class="encriptar" id="encriptar" onclick="toEncrypt()">Encriptar</button>
+                        <br>
+                        <br>
+                        <button class="desencriptar" id="desencriptar" onclick="toDencrypt()">Desencriptar</button>
+                    </div>
+                </center>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <center>
+                    <div class="salidaTexto" id="salidaTexto">
+                        <br>
+                        <textarea class="resultado" id="resultado"></textarea>
+                        <br><br>
+                        <p class="requisitos">Su resultado aparecerá aquí</p>
+                        <br>
+                        <button class="copy-button" onclick="copyToClipBoard()">Copiar</button>
+                    </div>
+                </center>
+            </div>
+        </section>
+</body>
+<footer class="footer">
+        <center>
+        <div class="footer-description">
+            <img id="logo-am" src="am_logo_highres_white.png">
+        </div>
+    </center>
+  </footer>
+</html>
